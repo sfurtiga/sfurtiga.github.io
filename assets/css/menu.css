@@ -1,0 +1,71 @@
+body {
+    background-color: #F9F8F4;
+    position: relative;
+}
+
+h1 {
+    font-family: 'Fredoka One', cursive;
+    color: #80ECF3;
+    font-size: 60px;
+    position: absolute;
+    top: 0px;
+    left: 100px;
+}
+
+#options {
+    position: absolute;
+    top: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+h2 {
+    font-family: 'Fredoka One', cursive;
+    color: #000000;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+h2:visited {
+    text-decoration: none;
+}
+
+h3 {
+    font-family: 'Itim', cursive;
+    color: #7DE3EA;
+    font-size: 36px;
+    position: absolute;
+    top: 600px;
+    left: 50px;
+}
+
+h4 {
+    font-family: 'Itim', cursive;
+    color: #000000;
+    font-size: 36px;
+    position: absolute;
+    top: 600px;
+    right: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    margin-top: 25px;
+    margin-left: 120px;
+    text-align: center;
+}
+
+a:hover {
+    opacity: 0.5;
+    text-decoration: underline;
+    color: #000000;
+}
+
+h3:hover {
+    opacity: 0.5;
+    text-decoration: underline;
+}

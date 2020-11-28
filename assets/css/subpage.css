@@ -1,0 +1,63 @@
+body {
+    background-color: #F9F8F4;
+    position: relative;
+}
+
+h1 {
+    font-family: 'Itim', cursive;
+    color: #80ECF3;
+    font-size: 76px;
+    position: absolute;
+    right: 500px;
+    top: 0px;
+}
+
+img {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    width: 25%;
+    height: auto;
+}
+
+h2 {
+    font-family: 'Itim', cursive;
+    color: #000000;
+    font-size: 59px;
+    position: absolute;
+    right: 800px;
+    top: 350px;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+}
+
+h3 {
+    font-family: 'Itim', cursive;
+    color: #7DE3EA;
+    font-size: 36px;
+    position: absolute;
+    top: 600px;
+    left: 50px;
+}
+
+#text1 {
+    position: absolute;
+    top: 150px;
+    left: 500px;
+    margin: 50px;
+}
+
+#text2 {
+    position: absolute;
+    top: 450px;
+    left: 500px;
+    margin: 50px;
+}
+
+h3:hover {
+    opacity: 0.5;
+    text-decoration: underline;
+}

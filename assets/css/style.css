@@ -1,0 +1,61 @@
+body {
+    background-color: #80ECF3;
+    position: relative;
+    background-image: url('../img/background_fruits.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 700px;
+}
+
+h1 {
+    font-family: 'Fredoka One', cursive;
+    color: #F9F8F4;
+    font-size: 110px;
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    animation-name: titleSize;
+    animation-duration: 0.45s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#arrow {
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 6%;
+    height: auto;
+    animation-name: bounceBall;
+    animation-duration: 0.45s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#arrow:hover {
+    opacity: 0.5;
+}
+
+@keyframes bounceBall {
+    from {
+        transform: translateY(-40px); 
+    }
+    to {
+        transform: translateY(10px); 
+    }
+}
+
+@keyframes titleSize {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(0.9);
+    }
+}
